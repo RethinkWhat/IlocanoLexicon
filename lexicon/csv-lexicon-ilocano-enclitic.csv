@@ -1,2 +1,3 @@
-id,word,enclitic_particle,category,snippet_usage,english_translation,context,pragmatic_function,clitic_position,notes,source_url,source_gdrive,author_reference
-0001,adda,met,emphasis,"Adda met dagiti taraken da pader.","the Pader family has livestock.","used to emphasize existence in contrastive statements.","adds contrast or nuance similar to 'also' or 'too'.","second-position enclitic","met can soften a statement or show contrast.","https://arielsotelotabag.blogspot.com/2008/09/littugaw.html",,
+id,word,enclitic_particle,category,snippet_usage,english_translation,context,pragmatic_function,clitic_position,notes,source_url
+0001,adda,met,emphasis,"Adda met dagiti taraken da pader.","the Pader family has livestock.","used to emphasize existence in contrastive statements.","adds contrast or nuance similar to 'also' or 'too'.","second-position enclitic","met can soften a statement or show contrast.","https://arielsotelotabag.blogspot.com/2008/09/littugaw.html"
+
