@@ -1,4 +1,4 @@
-## 📚 Project Title
+## Modeling Ilocano Enclitic Particles as an Electronic Lexicon
 
 
 ## Project Description
@@ -27,9 +27,46 @@ Each entry records its source for transparency and traceability.
 The lexicon is stored in **CSV** and **JSON** formats. Below is the standardized schema.
 
 ### JSON Example
-*Content to be added soon.*
+
+```json
+{
+  "id": "0001",
+  "word": "adda",
+  "enclitic_particle": "met",
+  "category": "emphasis",
+  "snippet_usage": "Adda met dagiti taraken da Pader.",
+  "english_translation": "The Pader family also has livestock.",
+  "context": "Used to emphasize existence in contrastive statements.",
+  "pragmatic_function": "Adds contrast or nuance, similar to 'also' or 'too'.",
+  "clitic_position": "Second-position enclitic.",
+  "notes": "The particle 'met' can soften a statement or indicate contrast.",
+  "source_url": "https://arielsotelotabag.blogspot.com/2008/09/littugaw.html"
+}
+
+```
+
 ### CSV Example
-*Content to be added soon.*
+- **id.** A unique identifier for each entry.
+- **word.** The lexical host (word or phrase) to which the enclitic particle attaches.
+- **enclitic_particle.** The enclitic particle itself.
+- **category.** The pragmatic or functional category of the particle.
+  - Categories include:
+  - *Class 1: Completion, Addition*
+  - *Class 2: Impatience / Command*
+  - *Class 3a: Interrogative, Reporting*
+  - *Class 3b: Pessimism / Emphasis*
+  - *Class 4: Speculation*
+  - *Class 5: Affirmation*
+  - *Other: Speculation, Hope / Necessity, Discovery*
+  
+- **snippet_usage.** A sentence or phrase excerpt showing authentic usage.
+- **english_translation.** English rendering of the snippet, preserving both literal meaning and pragmatic nuance.
+- **context.** The discourse environment or conversational situation of occurence
+- **pragmatic_function.** Communication effect that gives deeper meaning to the context
+- **clictic_position.**  Placement of a clitic relative to words in the sentence or phrase 
+- **notes.** Supplementary remarks
+- **source_url.** The online source for transparency and verification
+
 
 ---
 ## How to use
